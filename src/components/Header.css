@@ -29,6 +29,15 @@
     display: flex;
 }
 
+.navbar-links li a:hover {
+    color: blue;
+    /* add transition */
+}
+
+.navbar-links li a:focus {
+    color: #195387;
+}
+
 .navbar-links a {
     display: flex;
     align-items: center;
