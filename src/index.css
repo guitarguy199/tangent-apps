@@ -59,3 +59,20 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+.button-primary {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #195387;
+  color: #fafafa;
+  font-weight: bold;
+  border: 0.1875rem solid #195387;
+  transition: background, border, color, 0.5s;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #000;
+  border-color: #fff;
+  color: #fafafa;
+}
