@@ -1,0 +1,26 @@
+.home-contact {
+    background-color: #195387;
+    padding: 35px;
+}
+
+.home-contact .container {
+    grid-template-columns: 1fr;
+    grid-row: 2;
+    gap: 3.5rem;
+}
+
+.home-contact h2 {
+    grid-row: 1;
+    font-size: 20px;
+    text-overflow:ellipsis;
+    align-self: center;
+    padding: 40px;
+}
+
+.home-contact .button-primary {
+    grid-row: 2;
+    max-width: 200px;
+    max-height: 50px;
+    justify-self: center;
+    background-color: red;
+}
