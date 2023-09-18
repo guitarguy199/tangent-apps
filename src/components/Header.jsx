@@ -12,7 +12,7 @@ const Header = () => {
             </Link>
                 <ul className='navbar-links'>
                     <CustomLink to="/">Home</CustomLink>
-                    <CustomLink to="/">About</CustomLink>
+                    <CustomLink to="/about">About</CustomLink>
                     <CustomLink to="/">Services</CustomLink>
                     <CustomLink to="/">Contact</CustomLink>
                 </ul>
