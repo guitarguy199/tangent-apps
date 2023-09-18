@@ -1,0 +1,12 @@
+.services-box {
+    padding: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.services-box svg, h3 {
+    color: #195387;
+}
