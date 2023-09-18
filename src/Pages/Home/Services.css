@@ -1,5 +1,25 @@
 .home-services .container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
+    justify-content: center;
     gap: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+
+
+
+/* --- Media Queries ---*/
+
+@media (max-width: 1200px) {
+    .home-services .container {
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: center; */
+    }
+}
+
+@media (max-width: 730px) {
+    .home-services .container {
+        grid-template-columns: 1fr;
+    }
 }
