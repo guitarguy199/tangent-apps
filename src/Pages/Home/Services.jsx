@@ -9,7 +9,32 @@ const Services = () => {
             title: 'Web Dev',
             icon: faCheckCircle,
             description: 'Lorem Ipsum'
-        }
+        },
+        {
+            title: 'Web Dev',
+            icon: faCheckCircle,
+            description: 'Lorem Ipsum'
+        },
+        {
+            title: 'Web Dev',
+            icon: faCheckCircle,
+            description: 'Lorem Ipsum'
+        },
+        {
+            title: 'Web Dev',
+            icon: faCheckCircle,
+            description: 'Lorem Ipsum'
+        },
+        {
+            title: 'Web Dev',
+            icon: faCheckCircle,
+            description: 'Lorem Ipsum'
+        },
+        {
+            title: 'Web Dev',
+            icon: faCheckCircle,
+            description: 'Lorem Ipsum'
+        },
     ]
 
     return(
