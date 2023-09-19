@@ -1,8 +1,16 @@
+import { Link } from 'react-router-dom';
 import './ServiceCard.css';
 
-const ServiceCard = () => {
+const ServiceCard = ({ service }) => {
     return (
-        <h2>SVC</h2>
+        <article className='service-card'>
+            <img src={service.img} alt={service.name} />
+            <h3>{service.name}</h3>
+            <p>{service.description}</p>
+            <div className='card-footer'>
+            <Link className='button-primary' to={"/services"}>Learn More</Link>
+            </div>
+        </article>
     )
 }
 
