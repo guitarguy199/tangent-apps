@@ -5,7 +5,7 @@ const AustinQuote = () => {
     return (
             <section className='austin'>
                 <div className='grid container'>
-                    <img src={austinImg} alt="Picture of Founder, Austin" />
+                    <img src={austinImg} className="austin-img" alt="Picture of Founder, Austin" />
                     <div className='austin-text'>
                         <h2>What Makes Us Different?</h2>
                     </div>

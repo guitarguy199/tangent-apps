@@ -1,0 +1,12 @@
+.austin {
+
+}
+
+.austin .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+}
+
+.austin-img {
+    border-radius: 10%;
+}
