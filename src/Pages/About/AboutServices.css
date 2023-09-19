@@ -1,0 +1,26 @@
+.about-services {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    background: rgb(25,83,135);
+    background: linear-gradient(180deg, rgba(36,36,36,1) 0%, rgba(25,83,135,1) 100%);
+    border-radius: 2rem;
+}
+
+.about-services .container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    gap: 3.5rem;
+    justify-content: center;
+}
+
+
+/* --- Media Queries ---*/
+
+@media (max-width: 900px) {
+    .about-services .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        justify-items: center;
+    }
+}
