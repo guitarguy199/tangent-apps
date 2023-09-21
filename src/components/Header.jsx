@@ -13,8 +13,8 @@ const Header = () => {
                 <ul className='navbar-links'>
                     <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/about">About</CustomLink>
-                    <CustomLink to="/">Services</CustomLink>
-                    <CustomLink to="/">Contact</CustomLink>
+                    <CustomLink to="/services">Services</CustomLink>
+                    <CustomLink to="/contact">Contact</CustomLink>
                 </ul>
             </nav>
         </header>
