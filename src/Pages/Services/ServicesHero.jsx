@@ -7,6 +7,7 @@ const ServicesHero = () => {
             <img src={img} className='services-hero-img' />
                 <div className="services-hero-text">
                     <h2>Modern, Efficient Technology Solutions</h2>
+                    <p>What we offer  Projects  Testimonials</p>
                 </div>
             </section>
     )
