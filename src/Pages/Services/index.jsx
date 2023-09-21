@@ -1,8 +1,20 @@
+import OurServices from "./OurServices";
+import Projects from "./Projects";
+import ServiceBlips from "./ServiceBlips";
+import ServicesHero from "./ServicesHero";
+import Testimonials from "./Testimonials";
 
 
 const Services = () => {
     return(
-        <h1>Services Page</h1>
+        <>
+            <ServicesHero />
+            <ServiceBlips />
+            <OurServices />
+            <Projects />
+            <Testimonials />
+        </>
+
     )
 }
 
