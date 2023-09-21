@@ -32,9 +32,9 @@
     display: flex;
 }
 
-.navbar-links a {
-    /* color: black; */
-}
+/* .navbar-links a {
+    color: black;
+} */
 
 .navbar-links li a:hover {
     color: blue;
