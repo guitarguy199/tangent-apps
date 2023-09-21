@@ -1,0 +1,37 @@
+.services-hero {
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+.services-hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FAFAFA;
+}
+
+.services-hero-text h1 {
+    font-size: 80px;
+    padding-bottom: 1.5rem;
+}
+
+.services-hero-img {
+    height: 600px;
+    width: 100%;
+    justify-self: center;
+    object-fit: cover;
+    filter: blur(2px);
+    opacity: 60%;
+}
+
+/* --- Media Queries ---*/
+
+@media (max-width: 792px) {
+    .hero .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+}
