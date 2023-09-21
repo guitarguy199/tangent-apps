@@ -1,8 +1,14 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Blip.css';
 
-const Blip = () => {
+const Blip = ( { blip }) => {
     return(
-        <p>A Blip</p>
+        <article className='blip'>
+            <FontAwesomeIcon className="blip-icon" icon={blip.icon} />
+            <h3>{blip.title}</h3>
+            <p>{blip.desc}</p>
+        </article>
+
     )
 }
 

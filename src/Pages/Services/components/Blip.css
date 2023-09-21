@@ -1,0 +1,13 @@
+.blip {
+    text-align: left;
+    min-width: 20rem;
+    border: solid 1px;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.blip svg {
+    color: #195387;
+    height: 30px;
+    margin-bottom: 0.5rem;
+}
