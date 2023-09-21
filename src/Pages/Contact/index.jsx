@@ -1,7 +1,13 @@
+import ContactForm from "./ContactForm";
+import ContactHero from "./ContactHero";
 
 const Contact = () => {
     return (
-        <h1>Contact Page</h1>
+        <>
+            <ContactHero />
+            <ContactForm />
+        </>
+
     )
 }
 

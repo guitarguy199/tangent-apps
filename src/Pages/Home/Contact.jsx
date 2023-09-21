@@ -1,9 +1,9 @@
 import './Contact.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Contact = () => {
 
-    const [isFormExpanded, setIsFormExpanded] = useState(false);
+    // const [isFormExpanded, setIsFormExpanded] = useState(false);
 
     return(
         <section className='grid container home-contact'>
